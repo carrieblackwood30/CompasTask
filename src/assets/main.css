@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button{
+    transition: .3s ease-in-out all;
+}
+
+input:focus{
+    font-weight: 700;
+    color: #0584FE;
+}
+
+button:hover{
+    background-color: #001930;
+    color: #fff;
+}
